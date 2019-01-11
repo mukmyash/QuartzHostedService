@@ -1,9 +1,9 @@
 language: csharp  
-sudo: required  
-dist: xenial  
 mono: none
-dotnet: 2.2.101
+dotnet: 2.2
+sudo: required  
 os: linux
+dist: xenial  
 before_script:
   - dotnet restore
 script:  
